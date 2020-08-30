@@ -1,0 +1,37 @@
+
+a, a:focus, a:hover {
+    text-decoration: none !important;
+    color: currentColor !important;
+}
+
+.sidebar{
+    background: #FFFFFF;
+    width: 242px;
+    left: 0px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+    height: -webkit-fill-available;
+}
+
+.brand img{
+    width: 60px;
+    margin-left: 5px;
+}
+
+.items{
+    padding-left: 20px;
+    color: #8E8497 !important;
+}
+.list-text{
+    padding-left: 5px;
+}
+.items-list{
+    padding: 5px;
+}
+.items-list:hover {
+    background: #F0EBF5;
+    color: #8E8497;
+    width: 95%;
+    border-radius: 0px 35px 35px 0px;
+}

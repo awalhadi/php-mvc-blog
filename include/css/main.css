@@ -1,0 +1,146 @@
+a{
+    color: currentcolor;
+}
+a:hover {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.content {
+    /* margin-left: 60px; */
+    padding-left: 60px;
+    margin-top: 30px;
+}
+
+/* start post style */
+
+.post {
+    background: ghostwhite;
+    margin: 0px 0px 10px;
+    padding: 18px 5px 1px 25px;
+    color: black;
+}
+
+.post:hover {
+    background: #dde3dbf0;
+    border-bottom: groove;
+}
+
+p.postTitle {
+    font-size: larger;
+    font-weight: 500;
+}
+
+/* end post style */
+
+
+
+/* start side bar style */
+
+p.sidebar-title {
+    font-weight: 500;
+    font-size: larger;
+    color: darkgreen;
+}
+
+.horihontal-title {
+    width: 40%;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+ul.list-unstyled.side_cat {
+    background: #d0f8bb;
+    /* padding: 10px 0px 10px 18px; */
+    margin-right: 108px;
+    color: #020301;
+}
+
+li.cat_list {
+    font-size: 17px;
+    font-weight: 400;
+    border: 4px solid #ffff;
+    padding: 10px 0px 10px 18px;
+}
+
+.latestPost{
+    margin-top: 35px;
+}
+
+.latest_post{
+    background: #f8f8ff;
+    margin-right: 30px;
+    color: #020301;
+}
+
+.sidebarTitle{
+    font-size: 17px;
+    font-weight: 400;
+    border: 4px solid #ffff;
+    padding: 10px 0px 10px 18px;
+}
+
+p.read_more {
+    color: lightseagreen;
+    float: right;
+    display: inline-block;
+    margin: -30px 20px;
+}
+.read_more:hover{
+    font-weight: 500;
+}
+
+
+/* end side bar style */
+
+
+
+/* start footer */
+.footer {
+    color: aqua;
+    background: darkslategray;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    margin-top: 25px;
+}
+/* end footer */
+
+
+/* start full post view */
+
+.cat_name {
+    font-size: 14px;
+    color: purple;
+    font-weight: 500;
+}
+/* end full post view */
+
+
+/* search style */
+
+.nav_item {
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    /* border-bottom: 2px dashed blue; */
+}
+.menu {
+    /* float: left; */
+    margin-top: 31px;
+    padding-left: 84px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* admin login */
+
+
+.login {
+    margin-top: 50px;
+    padding: 40px; 
+    background: azure;
+    box-shadow: 5px 5px 5px #999;
+}
